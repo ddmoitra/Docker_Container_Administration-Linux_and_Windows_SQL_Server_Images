@@ -9,8 +9,10 @@
 ### Detailed Description 
 
 * Docker Desktop (for Windows) is installed and setup without any issues
+![image](https://user-images.githubusercontent.com/46364751/179987165-445e3450-dfcc-4a8e-bb9f-3ba49ef3090d.png)
 
 * Using Command Prompt (cmd), the version of Docker is reviewed
+![image](https://user-images.githubusercontent.com/46364751/179987222-51d26e44-2e56-46f6-8b43-e2a830ebf3b4.png)
 
 * Docker commands to install a Linux server are run, tested and validated to confirm Linux container is operational as expected
 
