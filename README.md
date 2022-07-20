@@ -15,6 +15,7 @@
 ![image](https://user-images.githubusercontent.com/46364751/179987222-51d26e44-2e56-46f6-8b43-e2a830ebf3b4.png)
 
 * Docker commands to install a Linux server are run, tested and validated to confirm Linux container is operational as expected
+
 ![image](https://user-images.githubusercontent.com/46364751/180000683-cb94b42a-8a2a-4d6c-b9f0-28a913fee6d8.png)
 
   ![image](https://user-images.githubusercontent.com/46364751/180000889-561897f0-b8b6-412b-861b-a475413ee273.png)
