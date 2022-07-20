@@ -42,12 +42,11 @@
 ![image](https://user-images.githubusercontent.com/46364751/180005634-4a3ebbea-f194-42a1-a9e8-acd890dd2422.png)
 
 * The IP address of the Docker Windows container is retrieved and leveraged within the MS SQL Server Managment Studio (SSMS) application
+
 ![image](https://user-images.githubusercontent.com/46364751/180005803-d3689e71-995e-45d2-a75f-800a77fe778e.png)
 
 ![image](https://user-images.githubusercontent.com/46364751/180006006-d1d58e60-32fc-4d1c-a71d-86f5b65e335e.png)
 
-
-![image](https://user-images.githubusercontent.com/46364751/180003819-bcff5697-cfcf-4653-a35f-7ca79b878616.png)
 
 * A database [Deepto_Shop.] is created on the Docker SQL Server image along with some custom sample tables via some INSERT SQL statements run in SSMS [e.g. dbo.Product]
 
