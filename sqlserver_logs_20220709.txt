@@ -1,0 +1,4 @@
+VERBOSE: Starting SQL Server
+VERBOSE: Changing SA login credentials
+VERBOSE: ALTER LOGIN sa with password='Sqlserver1!';ALTER LOGIN sa ENABLE;
+VERBOSE: Started SQL Server.

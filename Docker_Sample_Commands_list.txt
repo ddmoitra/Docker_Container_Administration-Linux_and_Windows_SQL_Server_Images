@@ -1,0 +1,20 @@
+docker ps
+docker pull spring2/sqlserver
+docker container rename dazzling_buck deepto_dockr_linux_contanr
+docker attach deepto_dockr_linux_contanr
+docker image ls
+docker container run -d -p 1433:1433 --name sqlserver -e sa_password=Sqlserver1! -e ACCEPT_EULA=Y -v c:\sqldata:c:\data spring2/sqlserver
+docker logs spring2/sqlserver
+docker container ls
+docker logs sqlserver
+docker exec sqlserver ipconfig
+docker logs sqlserver > C:\sqldata\sqlserver_logs_20220709.txt
+docker exec sqlserver arp -a
+docker exec sqlserver powershell Get-Process
+docker exec sqlserver powershell Get-Process > C:\sqldata\sqlserver_process_logs_20220709.txt
+docker exec -it sqlserver powershell
+##Powershell Commands within SQL Server container:
+##Stop-Process -Id 1760
+##Copy-Item -Path "C:\'Program Files'\'Microsoft SQL Server'\MSSQL13.MSSQLSERVER\MSSQL\DATA\*" -Destination "c:\data"
+docker container rm -f sqlserver
+docker image rm spring2/sqlserver
